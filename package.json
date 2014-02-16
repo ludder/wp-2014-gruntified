@@ -1,0 +1,18 @@
+{
+  "name": "jemanitori",
+  "version": "0.0.0",
+  "description": "Jemanitori Wordpress theme",
+  "main": "src/index.php",
+  "scripts": {
+    "test": "grunt"
+  },
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "author": "Tom Greuter",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  }
+}
