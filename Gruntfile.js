@@ -11,13 +11,24 @@ module.exports = function(grunt) {
         src: 'src/<%= pkg.name %>.js',
         dest: 'build/<%= pkg.name %>.min.js'
       }
-    }
+    },
+
+    copy: {
+      main: {
+        expand: true,
+        cwd: 'src',
+        src: ['**'],
+        dest: '../jemanitori-theme/',
+      },
+    },
+
   });
 
   // Load the plugin that provides the "uglify" task.
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['copy']);
 
 };
