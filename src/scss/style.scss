@@ -11,6 +11,12 @@ Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar
 Text Domain: jemanitori
 */
 
+$primary-background-color: #E8B9E8;
+$secondary-background-color: #D1A7D1;
+$tertiary-background-color: #B994B9;
+$primary-color: #303;
+$secondary-color: #600;
+
 @import 'reset';
 @import 'patterns';
 @import 'structure';

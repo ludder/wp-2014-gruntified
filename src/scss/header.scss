@@ -15,7 +15,7 @@
 }
 
 .site-header {
-    background-color: #f00;
+    background-color: $primary-background-color;
     max-width: 1260px;
     position: relative;
     width: 100%;
@@ -37,13 +37,13 @@
 
 .site-title a,
 .site-title a:hover {
-    color: #fff;
+    color: $primary-color;
 }
 
 /* Search in the header */
 
 .search-toggle {
-    background-color: #24890d;
+    background-color: $tertiary-background-color;
     cursor: pointer;
     float: right;
     height: 48px;
@@ -54,7 +54,7 @@
 
 .search-toggle:hover,
 .search-toggle.active {
-    background-color: #41a62a;
+    background-color: $secondary-background-color;
 }
 
 .search-toggle:before {
@@ -80,7 +80,7 @@
 }
 
 .search-box {
-    background-color: #41a62a;
+    background-color: $secondary-background-color;
     padding: 12px;
 }
 

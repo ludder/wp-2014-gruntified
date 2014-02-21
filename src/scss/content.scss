@@ -86,11 +86,11 @@ a.post-thumbnail:hover {
 }
 
 .entry-title a {
-    color: #2b2b2b;
+    color: $primary-color;
 }
 
 .entry-title a:hover {
-    color: #41a62a;
+    color: $secondary-color;
 }
 
 .site-content .entry-header {

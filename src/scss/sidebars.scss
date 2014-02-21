@@ -6,8 +6,8 @@
 /* Secondary */
 
 #secondary {
-    background-color: #f00;
-    border-top: 1px solid #f00;
+    background-color: $primary-background-color;
+    border-top: 1px solid $primary-background-color;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     clear: both;
     color: rgba(255, 255, 255, 0.7);
@@ -67,11 +67,11 @@
 }
 
 .widget a {
-    color: #fff;
+    color: $primary-color;
 }
 
 .widget a:hover {
-    color: #41a62a;
+    color: $secondary-color;
 }
 
 .widget h1,
@@ -246,7 +246,7 @@
 
 .widget-title,
 .widget-title a {
-    color: #fff;
+    color: $primary-color;
 }
 
 .widget-title a:hover {
@@ -447,11 +447,11 @@
  */
 
 .content-sidebar .widget a {
-    color: #24890d;
+    color: $primary-color;
 }
 
 .content-sidebar .widget a:hover {
-    color: #41a62a;
+    color: $secondary-color;
 }
 
 .content-sidebar .widget pre {
@@ -595,7 +595,7 @@
 }
 
 .content-sidebar .widget_twentyfourteen_ephemera .widget-title:before {
-    background-color: #f00;
+    background-color: $primary-background-color;
     color: #fff;
     margin: -1px 9px 0 0;
     padding: 6px 0 9px;

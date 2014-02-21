@@ -17,13 +17,13 @@
 }
 
 .site-navigation a {
-    color: #fff;
+    color: $primary-color;
     display: block;
     text-transform: uppercase;
 }
 
 .site-navigation a:hover {
-    color: #41a62a;
+    color: $secondary-color;
 }
 
 .site-navigation .current_page_item > a,

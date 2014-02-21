@@ -463,7 +463,7 @@
 
     .primary-navigation li:hover > a,
     .primary-navigation li.focus > a {
-        background-color: #24890d;
+        background-color: $secondary-background-color;
         color: #fff;
     }
 
