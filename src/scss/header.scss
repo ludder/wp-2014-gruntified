@@ -1,0 +1,94 @@
+/**
+ * 4.0 Header
+ * -----------------------------------------------------------------------------
+ */
+
+/* Ensure that there is no gap between the header and
+   the admin bar for WordPress versions before 3.8. */
+#wpadminbar {
+    min-height: 32px;
+}
+
+#site-header {
+    position: relative;
+    z-index: 3;
+}
+
+.site-header {
+    background-color: #f00;
+    max-width: 1260px;
+    position: relative;
+    width: 100%;
+    z-index: 4;
+}
+
+.header-main {
+    min-height: 48px;
+    padding: 0 10px;
+}
+
+.site-title {
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+}
+
+.site-title a,
+.site-title a:hover {
+    color: #fff;
+}
+
+/* Search in the header */
+
+.search-toggle {
+    background-color: #24890d;
+    cursor: pointer;
+    float: right;
+    height: 48px;
+    margin-right: 38px;
+    text-align: center;
+    width: 48px;
+}
+
+.search-toggle:hover,
+.search-toggle.active {
+    background-color: #41a62a;
+}
+
+.search-toggle:before {
+    color: #fff;
+    content: "\f400";
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.search-toggle .screen-reader-text {
+    left: 5px; /* Avoid a horizontal scrollbar when the site has a long menu */
+}
+
+.search-box-wrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.search-box {
+    background-color: #41a62a;
+    padding: 12px;
+}
+
+.search-box .search-field {
+    background-color: #fff;
+    border: 0;
+    float: right;
+    font-size: 16px;
+    padding: 2px 2px 3px 6px;
+    width: 100%;
+}

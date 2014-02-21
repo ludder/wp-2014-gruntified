@@ -1,0 +1,25 @@
+/*
+Theme Name: Jemanitori Theme
+Theme URI: http://wordpress.org/themes/twentyfourteen
+Author: @ludder / the WordPress team
+Author URI: http://tomgreuter.nl/
+Description: Jemanitori default WP design
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: jemanitori
+*/
+
+@import 'reset';
+@import 'patterns';
+@import 'structure';
+@import 'header';
+@import 'navigation';
+@import 'content';
+@import 'sidebars';
+@import 'footer';
+@import 'featured-content';
+// @import 'multisite';
+@import 'media-queries';
+// @import 'print';

@@ -1,0 +1,30 @@
+/**
+ * 10.0 Multisite
+ * -----------------------------------------------------------------------------
+ */
+
+.site-main .widecolumn {
+    padding-top: 72px;
+    width: auto;
+}
+.site-main .mu_register,
+.widecolumn > h2,
+.widecolumn > form {
+    margin: 0 auto 48px;
+    max-width: 474px;
+    padding: 0 30px;
+}
+
+.site-main .mu_register #blog_title,
+.site-main .mu_register #user_email,
+.site-main .mu_register #blogname,
+.site-main .mu_register #user_name {
+    font-size: inherit;
+    width: 90%;
+}
+
+.site-main .mu_register input[type="submit"],
+.widecolumn #submit {
+    font-size: inherit;
+    width: auto;
+}

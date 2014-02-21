@@ -1,0 +1,37 @@
+/**
+ * 8.0 Footer
+ * -----------------------------------------------------------------------------
+ */
+
+#supplementary {
+    padding: 0 10px;
+}
+
+.site-footer,
+.site-info,
+.site-info a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.site-footer {
+    background-color: #000;
+    font-size: 12px;
+    position: relative;
+    z-index: 3;
+}
+
+.footer-sidebar {
+    padding-top: 48px;
+}
+
+.site-info {
+    padding: 15px 10px;
+}
+
+#supplementary + .site-info {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.site-info a:hover {
+    color: #41a62a;
+}
