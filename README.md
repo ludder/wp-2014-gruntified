@@ -1,6 +1,6 @@
 # Wordpress twenty fourteen theme built with Grunt and Sass
 
-To quickly deploy new instances of Wordpress, it would be handy to generate and test copy's of the Wordpress Twenty Fourteen theme (2014) with Grunt. The original theme comes with quite a lot of CSS. To quickly change the basic colors Sass comes in handy. To develop, test and deploy our theme we need Grunt. If you know Grunt this should be an easy ride. If you don't, I'm sorry, but you have to do some learning before using this repository.
+To quickly deploy new instances of Wordpress, it would be handy to change, generate and test Wordpress themes based on the Twenty Fourteen theme (2014) with Grunt. The original theme comes with quite a lot of CSS. To quickly change the basic colors Sass comes in handy. To develop, test and deploy our theme we need Grunt. If you know Grunt this should be an easy ride. If you don't, I'm sorry, but you have to do some learning before using this repository.
 
 ## Dependencies
 
@@ -11,7 +11,9 @@ To quickly deploy new instances of Wordpress, it would be handy to generate and 
 
 ## How to
 
-- Edit the basic colors in style.scss
+- Check out this repo in the Wordpress themes folder
+- Startup your local Wordpress instance
+- Edit the basic colors in style.scss to your needs
 - Run `grunt watch` while developing (with live reload)
 - Run `grunt` for copying everything to a new theme folder `jemanitori-theme`. This is the theme should you include in your Wordpress instance.
 - Change the names in `package.json`, `Gruntfile.js` and `style.scss` to the names you like.
