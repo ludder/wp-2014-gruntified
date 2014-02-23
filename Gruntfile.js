@@ -64,6 +64,16 @@ module.exports = function (grunt) {
             tasks: ['sass:fast'],
         },
 
+        photobox: {
+            task: {
+                options: {
+                    indexPath: 'target/photobox/',
+                    screenSizes: ['400', '1200'],
+                    urls: ['http://localhost/', 'http://localhost/2014/']
+                }
+            }
+        }
+
     });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
@@ -71,6 +81,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-photobox');
 
     // Default task(s).
     grunt.registerTask('default', ['clean', 'copy']);
