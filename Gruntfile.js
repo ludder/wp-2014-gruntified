@@ -64,6 +64,17 @@ module.exports = function (grunt) {
             tasks: ['sass:fast'],
         },
 
+        phantomcss: {
+            options: {
+                screenshots: 'target/visual/test/screenshots/',
+                results: 'target/visual/results/',
+                viewportSize: [1024, 768]
+            },
+            src: [
+                'test/visual/**/*.js'
+            ]
+        }
+
     });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
@@ -71,8 +82,10 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-phantomcss');
 
     // Default task(s).
     grunt.registerTask('default', ['clean', 'copy']);
+    grunt.registerTask('test', ['phantomcss']);
 
 };
