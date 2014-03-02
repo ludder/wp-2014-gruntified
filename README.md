@@ -12,6 +12,7 @@ To quickly deploy new instances of Wordpress, it would be handy to change, gener
 ## How to
 
 - Check out this repo in the Wordpress themes folder
+- Run `npm update`
 - Startup your local Wordpress instance
 - Edit the basic colors in style.scss to your needs
 - Run `grunt watch` while developing (with live reload)
